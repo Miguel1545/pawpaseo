@@ -1,0 +1,408 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    /* background-color: #CCC5B9; */
+    background-color: #FFEEE6;
+}
+header {
+    height: 10vh;
+    width: 100%;
+    /*background-color: #403D39;*/
+    background: linear-gradient(180deg, #CC5E14 0%, #EEB154 100%);
+}
+.botones {
+    display: flex;
+    width: 20%;
+    height: 70%;
+    margin-left: 78%;
+    position: relative;
+    top: 10%;
+    flex-direction: column;
+}
+
+.boton_1 {
+    background-color: #CCC5B9;
+    height: 3.3vh;
+    width: 80%;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0px 3px 5px 0px black;
+    font-size: 15px;
+}
+.boton_1:hover {
+    background-color: rgb(148, 124, 172);
+    box-shadow: 1px 2px 2px rgb(82, 76, 76);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.boton_2 {
+    /*background: #68c8ae;*/
+    background-color: #CCC5B9;
+    height: 3.3vh;
+    width: 80%;
+    border-radius: 7px;
+    box-shadow: 0px 3px 5px 0px black;
+    border: none;
+    /* margin-left: 27%; */
+    margin-top: 5px;
+    opacity: 70%;
+}
+
+.boton_2:hover {
+    background-color: rgb(148, 124, 172);
+    box-shadow: 1px 2px 2px rgb(82, 76, 76);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-size: 15px;
+} 
+
+
+
+.menu_1 {
+    text-align: center;
+    height: 5vh;
+
+}
+#contenido {
+    display: flex;
+    margin-top: 20px;
+    height: 90vh;
+    
+}
+#lado_izquierdo {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+#lado_derecho {
+    width: 50%;
+    height: 80vh;
+
+}
+.titulo {
+    font-size: 400%;
+}
+.eslogan {
+    font-size: 110%;
+}
+.descargar {
+    width: 25%;
+    height: 20%;
+    margin-top: 2%;
+}
+.playstore {
+    height: 100%;
+    width: 100%;
+}
+.codigo_qr {
+    width: 25%;
+    margin-top: 30px;
+}
+.celular_1 {
+    height: 70vh;
+    width: 40%;
+    margin: 0 auto ;
+}
+@keyframes saltar {
+    0%, 100% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-10px); 
+    }
+}
+.celular {
+    width: 100%;
+    height: 100%;
+    animation: saltar 0.8s infinite;
+}
+.cuadro {
+    background-color: #EB5E28;
+    width: 32%;
+    height: 32%;
+    transform: rotate(-49.129deg);
+    position: relative;
+    bottom: 80%;
+    left: 33%;
+    z-index: -1;
+}
+.cuadro_2 {
+    width: 25%;
+    height: 25%;
+    transform: rotate(-49.544deg);
+    flex-shrink: 0;
+    background-color: #EB5E28;
+    position: relative;
+    bottom: 66%;
+    left: 32%;
+    z-index: -1;
+}
+.cuadro_3 {
+    width: 7%;
+    height: 8%;
+    transform: rotate(-41.732deg); 
+    flex-shrink: 0;
+    background-color: #EB5E28;
+    position: relative;
+    bottom: 100%;
+    left: 22%;
+    
+} 
+
+.cuadro_4 {
+    width: 7%;
+    height: 8%;
+    transform: rotate(-41.732deg);
+    flex-shrink: 0;
+    background-color: #EB5E28;
+    position: relative;
+    bottom: 109%;
+    left: 70%;
+}
+.rectangulo {
+    position: relative;
+    bottom: 90%;
+    left: 21%;
+    width: 55%;
+    height: 85%;
+    z-index: -1;
+}
+.rectangulo_img {
+    width: 100%;
+    height: 100%;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#contenido_2 {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.celular_2 {
+    height: 70vh;
+    width: 40%;
+    margin: 0 auto ;
+    margin-top: 20px;
+}
+.celular2{
+    height: 100%;
+    width: 100%;
+}
+#lado_izquierdo_2 {
+    width: 50%;
+    height: 80vh;
+}
+#lado_derecho_2 {
+    width: 50%;
+    height: 80vh;
+    text-align: center;
+    padding: 0.5%;
+}
+.sobre_la_app {
+    font-size: 48px;
+}
+.text {
+    font-size: 24px;
+}
+.app {
+    margin-top: 20px;
+}
+.cuadro_5 {
+    background-color: #EB5E28;
+    width: 35%;
+    height: 35%;
+    transform: rotate(-49.129deg);
+    position: relative;
+    bottom: 80%;
+    left: 35%;
+    z-index: -1;
+}
+.cuadro_6 {
+    width: 7%;
+    height: 8%;
+    transform: rotate(-41.732deg);
+    flex-shrink: 0;
+    background-color: #EB5E28;
+    position: relative;
+    bottom: 80%;
+    left: 21%;
+}
+.cuadro_7 {
+    width: 25%;
+    height: 25%;
+    transform: rotate(-49.544deg);
+    flex-shrink: 0;
+    background-color: #EB5E28;
+    position: relative;
+    bottom: 75%;
+    left: 33%;
+    z-index: -1;
+}
+.rectangulo_2{
+    width: 55%;
+    height: 85%;
+    position: relative;
+    bottom: 89%;
+    left: 19%;
+    z-index: -1;
+}
+.rectangulo_2_img {
+    width: 100%;
+    height: 100%;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#contenido_3 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
+#lado_izquierdo_3 {
+    width: 100%;
+    height: 100vh;
+}
+.servicios {
+    display: flex;
+}
+.servicio_1 {
+    /*width: 336px;*/
+    /*height: 373px;*/
+    width: 20%;
+    height: 50%;
+    flex-direction: column;
+    text-align: center;
+}
+.servicio_2{
+    /*width: 336px;*/
+    /*height: 373px;*/
+    width: 20%;
+    height: 50%;
+    text-align: center;
+    position: relative;
+    align-self: flex-end;
+    top: 230px;
+}
+.servicio_img {
+    height: 100%;
+    width: 100%;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////*/
+#contenido_4 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+#vista_4 {
+    width: 100%;
+    height: 100vh;
+}
+.equipo {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-evenly;
+}
+.equipo_trabajo_titulo {
+    font-size: 48px;
+    text-align: end;
+    position: relative;
+    right: 100px;
+}
+.equipo_contenido {
+    /*width: 292px;
+    height: 265px;*/
+    width: 20%;
+    height: 50%;
+    text-align: center;
+}
+.equipo_contenido_2 {
+    /*width: 292px;
+    height: 265px;*/
+    width: 20%;
+    height: 50%;
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+.img_equipo {
+    height: 100%;
+    width: 100%;
+}
+/* Pantallas pequeñas, como teléfonos
+@media (max-width: 600px) {
+    .botones {
+        width: 100%;
+        justify-content: center;
+    }
+    .boton_1, .boton_2 {
+        width: 100%;
+        margin: 5px;
+    }
+    .cuadro, .cuadro_2, .cuadro_3, .cuadro_4, .cuadro_5, .cuadro_6, .cuadro_7 {
+        display: none;
+    }
+    .sobre_la_app {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+    .text {
+        font-size: 18px;
+    }
+    .celular_1, .celular_2 {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .titulo {
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width : 1224px) {
+    
+   }
+Pantallas medianas, como tabletas y portátiles 
+@media (min-width: 768px) and (max-width: 1366px) {
+    .botones {
+        width: 20%;
+        justify-content: center;
+        border: 1px solid red;
+    }
+    .boton_1, .boton_2 {
+        width: 100px;
+        position: relative;
+        left: 505px;
+    }
+    .cuadro, .cuadro_2, .cuadro_3, .cuadro_4, .cuadro_5, .cuadro_6, .cuadro_7 {
+        display: block;
+        width: 100px;
+    }
+    .sobre_la_app {
+        font-size: 36px;
+        margin-top: 20px;
+    }
+    .text {
+        font-size: 20px;
+    }
+    .celular_1, .celular_2 {
+        width: 50%;
+        margin: 20px auto;
+    }
+}
+
+Pantallas grandes 
+@media (min-width: 1225px) {
+    ... (otros estilos) ... 
+     Mantén el diseño original para pantallas grandes 
+} */
+
