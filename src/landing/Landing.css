@@ -75,7 +75,7 @@ header {
 #contenido {
     display: flex;
     margin-top: 20px;
-    height: 90vh;
+    height: 100vh;
     
 }
 #lado_izquierdo {
@@ -90,7 +90,6 @@ header {
 #lado_derecho {
     width: 50%;
     height: 80vh;
-
 }
 .titulo {
     font-size: 400%;
@@ -109,7 +108,6 @@ header {
 }
 .codigo_qr {
     width: 25%;
-    margin-top: 30px;
 }
 .celular_1 {
     height: 70vh;
@@ -128,49 +126,6 @@ header {
     width: 100%;
     height: 100%;
     animation: saltar 0.8s infinite;
-}
-.cuadro {
-    background-color: #EB5E28;
-    width: 32%;
-    height: 32%;
-    transform: rotate(-49.129deg);
-    position: relative;
-    bottom: 80%;
-    left: 33%;
-    z-index: -1;
-}
-.cuadro_2 {
-    width: 25%;
-    height: 25%;
-    transform: rotate(-49.544deg);
-    flex-shrink: 0;
-    background-color: #EB5E28;
-    position: relative;
-    bottom: 66%;
-    left: 32%;
-    z-index: -1;
-}
-.cuadro_3 {
-    width: 7%;
-    height: 8%;
-    transform: rotate(-41.732deg); 
-    flex-shrink: 0;
-    background-color: #EB5E28;
-    position: relative;
-    bottom: 100%;
-    left: 22%;
-    
-} 
-
-.cuadro_4 {
-    width: 7%;
-    height: 8%;
-    transform: rotate(-41.732deg);
-    flex-shrink: 0;
-    background-color: #EB5E28;
-    position: relative;
-    bottom: 109%;
-    left: 70%;
 }
 .rectangulo {
     position: relative;
@@ -206,49 +161,19 @@ header {
 }
 #lado_derecho_2 {
     width: 50%;
-    height: 80vh;
+    height: 100vh;
     text-align: center;
     padding: 0.5%;
 }
 .sobre_la_app {
     font-size: 48px;
+
 }
 .text {
     font-size: 24px;
 }
 .app {
     margin-top: 20px;
-}
-.cuadro_5 {
-    background-color: #EB5E28;
-    width: 35%;
-    height: 35%;
-    transform: rotate(-49.129deg);
-    position: relative;
-    bottom: 80%;
-    left: 35%;
-    z-index: -1;
-}
-.cuadro_6 {
-    width: 7%;
-    height: 8%;
-    transform: rotate(-41.732deg);
-    flex-shrink: 0;
-    background-color: #EB5E28;
-    position: relative;
-    bottom: 80%;
-    left: 21%;
-}
-.cuadro_7 {
-    width: 25%;
-    height: 25%;
-    transform: rotate(-49.544deg);
-    flex-shrink: 0;
-    background-color: #EB5E28;
-    position: relative;
-    bottom: 75%;
-    left: 33%;
-    z-index: -1;
 }
 .rectangulo_2{
     width: 55%;
@@ -267,18 +192,19 @@ header {
     height: 100vh;
     width: 100%;
     display: flex;
-    
 }
 #lado_izquierdo_3 {
     width: 100%;
     height: 100vh;
 }
+.nuestros_servicios {
+    font-size: 48px;
+    width: 50%;
+}
 .servicios {
     display: flex;
 }
 .servicio_1 {
-    /*width: 336px;*/
-    /*height: 373px;*/
     width: 20%;
     height: 50%;
     flex-direction: column;

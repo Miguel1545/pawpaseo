@@ -72,7 +72,7 @@ function Landing() {
 
       <main id="contenido_3">
         <section id="lado_izquierdo_3">
-          <h1 className="sobre_la_app">Nuestros Servicios</h1>
+          <h1 className="nuestros_servicios">Nuestros Servicios</h1>
           <section className="servicios">
             <nav className="servicio_1">
               <img className="servicio_img" src={servicio1} alt="" />
