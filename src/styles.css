@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #CCC5B9;
+}
+.Encabezado{
+    background-color: #E4B289;
+    display: flex;
+    height: 20vh;
+}
+.BotonSesion{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.c{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 25%;
+}
+.FotoPerfil{
+    width: 10%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.FotoPerfil_Img{
+    width: 50%;
+    height: 60%;
+}
+.Logo{
+    width: 20%;
+    height: 99%;
+    border: 1px solid black;
+}
+.Contenido{
+    display: flex;
+    height: 80vh;
+}
+.BarraLateral{
+    width: 20%;
+    background-color: #E4B289;
+}
+.Info{
+    width: 3%;
+}
+.Opciones{
+    border: 1px solid rgb(113, 113, 113);
+    margin-top: 2%;
+    height: 18%;
+    box-shadow: 0px 1px 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.OpcionesSubrallado{
+    border: 4px solid black;
+    margin-top: 2%;
+    height: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* inicio */
+.Info{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Foto{
+    width: 100px;
+    height: 100px;
+}
+.Texto{
+    text-align: center;
+    color: black;
+}
+/* AdminPerfil */
+.Info2 {
+    width: 74%;
+    margin:3%;
+    background-color: #D9D9D9;
+    border-radius:20px 20px 20px 20px;
+    text-align: center;
+}
+.Foto2 {
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+.InformacionAdmin{
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.InformacionAdminText{
+    border: 1px solid black;
+}
+.Editar{
+    margin-top: 3%;
+    width: 20%;
+    height: 15%;
+    font-size: 20px;
+}
+.EditarImagen{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+/* DemasAdmin */
+.Info3 {
+    width: 74%;
+    margin:3%;
+    border-radius:20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.TextoAdmin{
+    margin-top: 5%;
+}
+.ImgGrande{
+    max-width: 30%;
+    margin-top: 5%;
+}
+.ImgPequeña{
+    width: 50px;
+    height: 50px;
+    margin-left: 8%;
+}
+.Numero{
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TextoPerfilPeqeño{
+    width: 80%;
+    text-align: center;
+}
+.InfoAdmin{
+    background-color: #E4B289;
+    margin-top: 5%;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: large;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LadoIzquierdo{
+    border-radius:20px 20px 20px 20px;
+    background-color: #D9D9D9;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+.PerfilesAdmin{
+    background-color: #CCC5B9;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 5%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.LadoDerecho{
+    border-radius:20px 20px 20px 20px;
+    background-color: #E4B289;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+/* Cuidadores */
+.Info4{
+    width: 74%;
+    margin: 3%;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.InfoCudador {
+    background-color: #E4B289;
+    margin-top: 3%;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: large;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Cancelar{
+    width: 20px;
+}
+.Rojo{
+    background-color: red;
+}
+.Estrella{
+    width: 20px;
+    margin-left: 3%;
+}
+/* Usuarios */
+.Info4 {
+    width: 74%;
+    margin: 3%;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* buzon */
+.Info2 {
+    width: 74%;
+    margin: 3%;
+    background-color: #D9D9D9;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+}
+.Cabeza{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Buzon{
+    width: 10%;
+}
+.MensajeContenido {
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid black;
+    height: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+.ImagenPregunta{
+    margin-top: 1%;
+    margin-right: 3%;
+    width: 3%;
+    height: 3%;
+}
+.Arriba{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TextoPreguntas{
+    margin-top: 1%;
+}
