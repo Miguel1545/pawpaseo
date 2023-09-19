@@ -1,0 +1,33 @@
+.Encabezado{
+    background-color: #E4B289;
+    display: flex;
+    height: 20vh;
+}
+.Logo{
+    width: 20%;
+    height: 99%;
+    border: 1px solid black;
+}
+.BotonSesion{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.c{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 25%;
+}
+.FotoPerfil{
+    width: 10%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.FotoPerfil_Img{
+    width: 50%;
+    height: 60%;
+}

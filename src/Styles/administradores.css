@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #CCC5B9;
+}
+
+/* Empieza el Header */ 
+
+.Header {
+    background-color: #E4B289;
+    display: flex;
+    height: 20vh;
+}
+
+.ConteLogo {  /* Contenedor del logo */
+    width: 20%;
+    height: 99%;
+    border: 1px solid black;
+} 
+
+
+/* Boton Cerrar Sesion */ 
+.ButtonCerrar {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.cerrarsesion {
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 25%;
+}
+
+/* Termina Boton Cerrar Sesion */ 
+
+.ConteFotoPerfil {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ImgdePerfil {
+    width: 50%;
+    height: 60%;
+}
+
+/* Termina el Header */ 
+
+/* Empieza el Main */
+
+
+.Container {
+    display: flex;
+    height: 80vh;
+}
+
+/* Menu lateral fijo */ 
+.BarraFija {
+    width: 20%;
+    background-color: #E4B289;
+}
+
+
+.TextoMenuOpci {
+    text-align: center;
+    color: black;
+}
+
+.MenuOpci {
+    border: 1px solid rgb(113, 113, 113);
+    margin-top: 2%;
+    height: 18%;
+    box-shadow: 0px 1px 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.OpcionSubrayada {
+    border: 4px solid black;
+    margin-top: 2%;
+    height: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*  Termina Menu lateral fijo */ 
+
+/* Contenido de  DemasAdmin */
+
+
+.ContenidoDemasAdmin {
+    width: 74%;
+    margin: 3%;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Contenido 1 - Lado Izquierdo */ 
+
+.Info1 {
+    border-radius: 20px 20px 20px 20px;
+    background-color: #D9D9D9;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+
+.TextoAdmin {
+    margin-top: 5%;
+}
+
+.ImgPerfilMenu{ /*Foto de perfil que ya aparece en el contenido */ 
+    max-width: 30%;
+    margin-top: 5%;
+}
+
+.InfoAdmin {
+    background-color: #E4B289;
+    margin-top: 5%;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: large;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Termina Contenido 1 - Lado Izquierdo */ 
+
+/* Contenido 2 - Lado Derecho */ 
+
+.Info2 {
+    border-radius: 20px 20px 20px 20px;
+    background-color: #E4B289;
+    width: 40%;
+    height: 100%;
+    text-align: center;
+}
+
+.PerfilesAdmin {
+    background-color: #CCC5B9;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 5%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Num {  /* H1 que contiene la enumeracion y la imagen de perfil en la barra lateral derecha */ 
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ImgPerfilPeq {
+    width: 50px;
+    height: 45px;
+    margin-left: 8%;
+}
+
+.TexNameAdmi {
+    width: 80%;
+    text-align: center;
+}
+
+/* Termina Contenido 2 - Lado Derecho */ 
+
+/* Temina Main */ 
